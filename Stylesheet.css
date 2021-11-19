@@ -1,0 +1,22 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.background {
+background-color: #99C34E;
+border: 1px solid #440445;
+border-radius: 3px;
+
+}
+
+.navButton{
+
+   width: 100px;
+   height: 25px;
+   color: #440445;
+   text-align: center;
+}
+
+.navButton:hover {
+   transform: scale(1.1);
+}
