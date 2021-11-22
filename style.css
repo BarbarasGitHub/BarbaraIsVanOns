@@ -72,4 +72,20 @@
 .foot-container {
     grid-column: 1 / -1;
     grid-row: 4 / 5;
+
 }
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.foot-container p{
+    font-family: 'Mystery Quest', cursive;
+    text-align: center;
+}
+
+
+
+
