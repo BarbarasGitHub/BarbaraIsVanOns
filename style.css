@@ -18,6 +18,36 @@
 
 }
 
+h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.main-content-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table, tr, td{
+    border: 3px solid white;
+
+}
+
+table td{
+    height: 60px;
+}
+
+table a{
+    padding: 0px;
+    margin-left: 200px;
+}
+
+table h2{
+    text-align: center;
+}
+
 .head-container {
     grid-column: 1 / -1;
     grid-row: 1 / 2;
