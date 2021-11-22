@@ -1,3 +1,10 @@
+.bg-img {
+    background-image: url(/BarbaraIsVanOns/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 3fr 1fr;
@@ -6,6 +13,7 @@
     row-gap: 10px;
     column-gap: 10px;
 
+    /* height is nu vast, maar met meer content hoeft dat straks niet */
     height: 1080px;
 
 }
@@ -16,9 +24,7 @@
 
     width: 100%;
     height: 100%;
-    border: solid black;
 }
-
 
 .nav-container {
     grid-column: 2 / 3;
@@ -36,33 +42,19 @@
 }
 
 .main-content-container {
-   grid-column: 3 / 4;
-   grid-row: 2 / 4;
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
 
-   border: solid black;
-   height: 100%;
+    background-color: white;   
+    height: 100%;
    
 }
 
 .main-content-container h1 {
     font-size: 30px;
     padding: 20px;
-}
-
-.flex-container {
-    display: flex;
-    gap: 10px;
-    padding: 10px;
-}
-
-.item {
-    padding: 10px;
+    background-color: #99C34E;
     color: #440445;
-}
-
-.foot-container {
-    grid-column: 1 / -1;
-    grid-row: 4 / 5;
 }
 
 /* CONTACT EN INFO */
@@ -70,20 +62,17 @@
 .grotecontainer{
 margin-left: 50px;
 border-style: solid;
+line-height: 1.5;
 }
 
 .radio {
 display:inline-block;
 }
 
-h3 {
+.grotecontainer h3 {
 font-weight: bold;
 color: #440445;
 line-height: 2;
-}
-
-body {
-line-height: 1.5;
 }
 
 /* radio buttons */
@@ -111,12 +100,51 @@ margin-bottom: 5px;
 }
 
 .naam {
-    /* width:100%; */
     text-align:left;
     margin:0px;
     size:40px;
     background-color:plum;
 }
+
 .bottom {
     font-size: 10px;
 }
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.item {
+    padding: 10px;
+    color: #440445;
+}
+
+/* footer */
+.foot-container {
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
+    background-color: #000;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.icons a {
+    color: rgb(255, 255, 255);
+}
+
+.foot-container p{
+    font-family: 'Mystery Quest', cursive;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
