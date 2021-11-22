@@ -26,12 +26,42 @@
     height: 100%;
 }
 
+
+/* navbar*/
+
 .nav-container {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-
-    border: solid black;
 }
+    
+.navButton {
+    width: 100%;
+    height: 25%;
+    
+    background-color: #99C34E;
+    border: 1px solid #440445;
+    border-radius: 3px; 
+}
+
+.navButton a {
+    display: block;
+    padding: 15%;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #440445;
+    font-weight: bolder;
+}
+    
+.navButton a:hover {
+    /* transform: scale(1.1); */
+    background-color: #c1dd92;
+    color: black;
+    font-style: 35px;
+    transition: color 0.5s ease, background-color 0.5s ease;
+    }
+
+
 
 .img-container {
     grid-column: 2 / 3;
@@ -143,8 +173,4 @@ margin-bottom: 5px;
     text-align: center;
     color: white;
 }
-
-
-
-
 
