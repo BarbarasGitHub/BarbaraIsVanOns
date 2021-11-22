@@ -1,21 +1,52 @@
-
+*{
+   box-sizing: border-box;
+}
 
 
 .background {
 background-color: #99C34E;
 border: 1px solid #440445;
 border-radius: 3px;
-
 }
 
 .navButton{
-
    width: 100px;
    height: 25px;
    color: #440445;
    text-align: center;
+   margin: 5px;
+}
+
+.navtext {
+   margin-top: 4px;
 }
 
 .navButton:hover {
    transform: scale(1.1);
+}
+.link {
+   display: block;
+   padding-left: 5px;
+   padding-bottom: 2px;
+}
+.center{
+   text-align: center;
+}
+.links {
+   width: 300px;
+
+   margin: 5px;
+}
+.flex{
+   display: flex;
+   flex-wrap: wrap;
+}
+.headerBg{
+   background-color: #99C34E;
+   border-radius: 5px 5px 0px 0px;
+   padding: 5px;
+}
+.linksBorder {
+   border-radius: 5px 5px 5px 5px;
+   border: 1px solid #440445;
 }
