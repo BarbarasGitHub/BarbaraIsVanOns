@@ -63,7 +63,6 @@
 .foot-container {
     grid-column: 1 / -1;
     grid-row: 4 / 5;
-    border: solid black;
 }
 
 /* CONTACT EN INFO */
