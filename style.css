@@ -63,6 +63,23 @@
 .foot-container {
     grid-column: 1 / -1;
     grid-row: 4 / 5;
-
     border: solid black;
+}
+
+/* CONTACT EN INFO */
+
+/* radio buttons */
+
+.radio {
+
+}
+
+/* contactgegevens */
+
+.naam {
+    width:100%;
+    align:left;
+    margin:0px;
+    size:40px;
+    background-color:plum;
 }
