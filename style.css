@@ -80,6 +80,11 @@
     display: flex;
     justify-content: space-evenly;
     padding: 25px;
+    
+}
+
+.icons a {
+    color: rgb(255, 255, 255);
 }
 
 .foot-container p{
