@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.header img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.titelheader{
+    position: absolute;
+    font-size: 100px;
+    left: 10%;
+    top: 2%;
+    font-family: 'Mystery Quest', cursive;
+    color: white;
+}
+
+.subtitelheader{
+    position: absolute;
+    font-family: 'Mystery Quest', cursive;
+    font-size: 30px;
+    left: 15%;
+    top: 14%;
+    color: white;
+}
+
+.extratitels{
+    position: absolute;
+    right: 0;
+    text-align: right;
+    font-family: 'Mystery Quest', cursive;
+    color: white;
+    font-size: 25px;
+}
+
+.extratitels p {
+    padding: 10px;
+}
+
