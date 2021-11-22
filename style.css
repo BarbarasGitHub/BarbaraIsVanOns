@@ -68,18 +68,56 @@
 
 /* CONTACT EN INFO */
 
-/* radio buttons */
+.grotecontainer{
+margin-left: 50px;
+border-style: solid;
+}
 
 .radio {
+display:inline-block;
+}
 
+h3 {
+font-weight: bold;
+color: #440445;
+line-height: 2;
+}
+
+body {
+line-height: 1.5;
+}
+
+/* radio buttons */
+
+.radiobuttons {
+width: 100%;
+text-align:justify;
+flex-direction:column;
+align-items: center;
+justify-content:center;
 }
 
 /* contactgegevens */
 
+.contactgegevens{
+align-items: right;
+width:200px;
+}
+
+.contact{
+display:flex;
+width: 300px;
+justify-content:space-between;
+margin-bottom: 5px;
+}
+
 .naam {
-    width:100%;
-    align:left;
+    /* width:100%; */
+    text-align:left;
     margin:0px;
     size:40px;
     background-color:plum;
+}
+.bottom {
+    font-size: 10px;
 }
